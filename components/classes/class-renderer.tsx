@@ -1,5 +1,5 @@
-import React from 'react';
-import { ClassPageProps } from './class-components';
+import React from 'preact/compat';
+import { ClassPageProps } from './class-components.ts';
 
 /**
  * Componente para renderizar a barra de navegação
