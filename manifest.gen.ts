@@ -4,15 +4,57 @@
 
 import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
-import * as $$$$$$0 from "./sections/Footer.tsx";
-import * as $$$$$$1 from "./sections/ItWorks.tsx";
-import * as $$$$$$2 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$0 from "./sections/AboutUs.tsx";
+import * as $$$$$$1 from "./sections/Benefits.tsx";
+import * as $$$$$$2 from "./sections/ClassBadge.tsx";
+import * as $$$$$$3 from "./sections/ClassCover.tsx";
+import * as $$$$$$4 from "./sections/ClassDetails.tsx";
+import * as $$$$$$5 from "./sections/ClassInstructor.tsx";
+import * as $$$$$$6 from "./sections/ClassPage.tsx";
+import * as $$$$$$7 from "./sections/ClassRegistration.tsx";
+import * as $$$$$$8 from "./sections/ClassTopic.tsx";
+import * as $$$$$$9 from "./sections/FAQ.tsx";
+import * as $$$$$$10 from "./sections/FAQScript.tsx";
+import * as $$$$$$11 from "./sections/Footer.tsx";
+import * as $$$$$$12 from "./sections/FooterSection.tsx";
+import * as $$$$$$13 from "./sections/Hero.tsx";
+import * as $$$$$$14 from "./sections/ItWorks.tsx";
+import * as $$$$$$15 from "./sections/LiveClasses.tsx";
+import * as $$$$$$16 from "./sections/LiveClassesScript.tsx";
+import * as $$$$$$17 from "./sections/Navbar.tsx";
+import * as $$$$$$18 from "./sections/NavbarScript.tsx";
+import * as $$$$$$19 from "./sections/RelatedClass.tsx";
+import * as $$$$$$20 from "./sections/RelatedClasses.tsx";
+import * as $$$$$$21 from "./sections/ScrollAnimationScript.tsx";
+import * as $$$$$$22 from "./sections/Testimonials.tsx";
+import * as $$$$$$23 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
-    "site/sections/Footer.tsx": $$$$$$0,
-    "site/sections/ItWorks.tsx": $$$$$$1,
-    "site/sections/Theme/Theme.tsx": $$$$$$2,
+    "site/sections/AboutUs.tsx": $$$$$$0,
+    "site/sections/Benefits.tsx": $$$$$$1,
+    "site/sections/ClassBadge.tsx": $$$$$$2,
+    "site/sections/ClassCover.tsx": $$$$$$3,
+    "site/sections/ClassDetails.tsx": $$$$$$4,
+    "site/sections/ClassInstructor.tsx": $$$$$$5,
+    "site/sections/ClassPage.tsx": $$$$$$6,
+    "site/sections/ClassRegistration.tsx": $$$$$$7,
+    "site/sections/ClassTopic.tsx": $$$$$$8,
+    "site/sections/FAQ.tsx": $$$$$$9,
+    "site/sections/FAQScript.tsx": $$$$$$10,
+    "site/sections/Footer.tsx": $$$$$$11,
+    "site/sections/FooterSection.tsx": $$$$$$12,
+    "site/sections/Hero.tsx": $$$$$$13,
+    "site/sections/ItWorks.tsx": $$$$$$14,
+    "site/sections/LiveClasses.tsx": $$$$$$15,
+    "site/sections/LiveClassesScript.tsx": $$$$$$16,
+    "site/sections/Navbar.tsx": $$$$$$17,
+    "site/sections/NavbarScript.tsx": $$$$$$18,
+    "site/sections/RelatedClass.tsx": $$$$$$19,
+    "site/sections/RelatedClasses.tsx": $$$$$$20,
+    "site/sections/ScrollAnimationScript.tsx": $$$$$$21,
+    "site/sections/Testimonials.tsx": $$$$$$22,
+    "site/sections/Theme/Theme.tsx": $$$$$$23,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,

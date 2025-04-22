@@ -1,0 +1,19 @@
+{
+  "__resolveType": "site/sections/Navbar.tsx",
+  "logo": {
+    "type": "image",
+    "content": "https://assets.decocache.com/cursoai/cd9d5ffa-dee7-4e33-a9b6-a4b7e7acae6f/maindslogo.svg"
+  },
+  "links": [
+    {
+      "text": "Live Classes"
+    },
+    {
+      "text": "Quem somos"
+    },
+    {
+      "text": "Benefícios "
+    }
+  ],
+  "ctaText": "Sugerir aula"
+}

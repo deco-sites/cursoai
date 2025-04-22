@@ -3,12 +3,138 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/ItWorks.tsx",
-      "name": "<p>It Works!</p>",
-      "count": 1
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "nav"
+      }
     },
     {
-      "__resolveType": "Footer"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "eyebrow": "NOVAS AULAS GRATUITAS",
+        "description": " Dos fundamentos à construção de AI Agents, aprenda com especialistas que estão construindo o futuro. Seja você iniciante ou programador profissional, domine a inteligência artificial e crie soluções de AI que entendam, raciocinem e ajam."
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/LiveClasses.tsx",
+        "cards": [
+          {
+            "instructor": {
+              "name": "Guilherme Tavano",
+              "role": "Head na Carcará",
+              "description": "Atuou em projetos de ecommerce para Farm, ZeeDog, LiveMode.",
+              "avatar": "https://assets.decocache.com/cursoai/8a8c7332-9567-4e80-a4f6-738fcc7a82fb/avatar.jpg"
+            },
+            "image": "https://assets.decocache.com/cursoai/d849bbd0-017e-44ca-b127-0d96e656aa83/tahme._BACKGROUND_GRAPHIC_FOR_A_Flyer_minimalist_colors_merging_f6862a70-b2d0-4758-bf6f-040164f3ac41.png",
+            "title": "Deep Learning for Computer Vision",
+            "id": "deep-learning",
+            "date": "Abr 21, 2025",
+            "time": "6:30 PM - 7:00 PM",
+            "categoryId": "IA Básico",
+            "spotsLeft": 4
+          },
+          {
+            "instructor": {
+              "name": "Matheus Gaudêncio",
+              "role": "Software Engineer e PhD em Ciência da Computação",
+              "avatar": "https://assets.decocache.com/cursoai/ad2f4117-17d3-4761-86b0-5aa34c6d8037/gaudencio2.JPG"
+            },
+            "id": "building-enterprise ",
+            "title": "Building Enterprise AI Products",
+            "date": "Abr 28, 2025",
+            "time": "6:30 PM - 8:00 PM",
+            "categoryId": "Marketing",
+            "spotsLeft": 10,
+            "image": "https://assets.decocache.com/cursoai/7248b1f1-70ab-4e05-a38a-249453fa0e1d/enterprise-products.png",
+            "link": "/building-enterprise-ai-products"
+          },
+          {
+            "instructor": {
+              "name": "Julia Alvite",
+              "role": "Co-founder at Carcará & Head of Growth",
+              "avatar": "https://assets.decocache.com/cursoai/aab52149-3a01-4020-a285-8a4b4ad96476/ju-alvite.jpeg"
+            },
+            "image": "https://assets.decocache.com/cursoai/c2e88692-9525-4a2f-b712-f7e8fe5df458/productivity.png",
+            "title": "How to use AI to 10x your productivity",
+            "date": "Mai 06, 2025",
+            "time": "6:30 PM - 7:30 PM",
+            "categoryId": "IA Básico",
+            "id": "productivity",
+            "spotsLeft": 2
+          },
+          {
+            "instructor": {
+              "name": "Guilherme Tavano",
+              "role": "Head na Carcará",
+              "avatar": "https://assets.decocache.com/cursoai/8a8c7332-9567-4e80-a4f6-738fcc7a82fb/avatar.jpg"
+            },
+            "image": "https://assets.decocache.com/cursoai/e289439f-2532-45d8-9420-18899810be0a/mbiagiotti_heat-sensitive_technical_fabric_--v_6.1_49e9f6d1-f9f7-4093-b3d4-cdf0d55328a3.png",
+            "time": "6:30 PM - 8:00 PM",
+            "date": "Abr 28, 2025",
+            "title": "Create agents for your daily routine",
+            "categoryId": "personal",
+            "spotsLeft": 10
+          }
+        ],
+        "subtitle": "Explore os fundamentos, aprofunde-se nas aplicações práticas e transforme ideias em agentes inteligentes."
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Benefits.tsx",
+        "benefits": [
+          {
+            "iconUrl": "https://assets.decocache.com/cursoai/43ff305c-39ce-43ae-8c7f-33c5a8e5b262/network_intelligence_history_520dp_D0EC1A_FILL0_wght400_GRAD0_opsz48.svg",
+            "title": "Aprenda o que está sendo usado agora!",
+            "description": "Nosso conteúdo evolui com o mercado. A cada semana, algo novo. Porque é assim que a inteligência artificial se move."
+          },
+          {
+            "iconUrl": "https://assets.decocache.com/cursoai/5d2590a1-4b29-40b9-9428-5b31f0746cfd/forum_520dp_D0EC1A_FILL0_wght400_GRAD0_opsz48.svg",
+            "title": "Ambiente de aprendizado ativo",
+            "description": "Aulas ao vivo, troca entre participantes, discussões abertas e exercícios hands-on. Interação direta com os especialistas."
+          },
+          {
+            "iconUrl": "https://assets.decocache.com/cursoai/10642d61-1a00-4e2e-9ae4-d7bb7dace219/construction_520dp_D0EC1A_FILL0_wght400_GRAD0_opsz48.svg",
+            "title": "Mais do que professores: builders",
+            "description": "Instrutores escolhidos por estarem na linha de frente. Você aprende com quem está usando IA todos os dias para resolver problemas reais. "
+          },
+          {
+            "iconUrl": "https://assets.decocache.com/cursoai/2f743657-b489-4982-9c31-6de1293e02bb/play_lesson_520dp_D0EC1A_FILL0_wght400_GRAD0_opsz48.svg",
+            "title": "Flexibilidade de Horário",
+            "description": "Aulas ao vivo, práticas e objetivas. Gravadas para assistir depois, se quiser revisar ou não conseguir ao vivo."
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/AboutUs.tsx",
+        "image": "https://assets.decocache.com/cursoai/2363c43a-a9f1-4e3a-a0d1-79f1189a45ee/quem_somos_card.png"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Testimonials.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/FAQ.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/FooterSection.tsx",
+        "companyName": "Mainds"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

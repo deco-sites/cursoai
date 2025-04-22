@@ -1,0 +1,97 @@
+{
+  "name": "class - enterprise products",
+  "path": "/building-enterprise-ai-products",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "nav"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ClassPage.tsx",
+        "coverImage": "https://assets.decocache.com/cursoai/d849bbd0-017e-44ca-b127-0d96e656aa83/tahme._BACKGROUND_GRAPHIC_FOR_A_Flyer_minimalist_colors_merging_f6862a70-b2d0-4758-bf6f-040164f3ac41.png",
+        "details": {
+          "title": "Building Enterprise AI Products",
+          "date": "21 de Abril, 2025",
+          "time": "18:30 - 20:00",
+          "description": [
+            "Aprenda como construir produtos de IA escaláveis para empresas. Nesta aula, vamos abordar desde a ideação até a implementação e métricas de sucesso para produtos de IA em ambientes corporativos.  Ideal para product managers, designers e desenvolvedores que querem criar produtos de IA que realmente resolvem problemas empresariais e geram valor mensurável."
+          ],
+          "instructor": {
+            "name": "Guilherme Tavano",
+            "role": "Head na Carcará",
+            "bio": [
+              "Com mais de 10 anos de experiência em produtos digitais, Guilherme liderou a implementação de soluções de IA para diversas empresas Fortune 500. Especialista em transformar ideias complexas em produtos intuitivos e escaláveis.  Atuou em projetos de e-commerce para Farm, ZeeDog, LiveMode e outras grandes marcas, sempre com foco em experiências personalizadas potencializadas por IA."
+            ],
+            "avatar": "https://assets.decocache.com/cursoai/8a8c7332-9567-4e80-a4f6-738fcc7a82fb/avatar.jpg"
+          },
+          "badges": {
+            "virtual": "Virtual",
+            "free": "Free"
+          },
+          "topics": [
+            {
+              "number": 1,
+              "title": "Fundamentos de Produtos de IA",
+              "description": "Como produtos de IA diferem de produtos tradicionais e quais habilidades são necessárias para desenvolvê-los."
+            },
+            {
+              "number": 2,
+              "title": "Pesquisa e Validação",
+              "description": "Técnicas para validar casos de uso de IA e garantir que estamos resolvendo problemas reais."
+            },
+            {
+              "number": 3,
+              "title": "Infraestrutura Escalável",
+              "description": "Arquiteturas para construir soluções de IA que escalam para milhares ou milhões de usuários."
+            },
+            {
+              "number": 4,
+              "title": "Métricas e Otimização",
+              "description": "Como definir e monitorar métricas relevantes para produtos de IA e otimizar continuamente."
+            },
+            {
+              "number": 5,
+              "title": "Ética e Governança",
+              "description": "Princípios éticos e práticas de governança para produtos de IA responsáveis."
+            },
+            {
+              "number": 6,
+              "title": "Casos de Uso Reais"
+            }
+          ]
+        },
+        "registration": {
+          "availableSpots": 4,
+          "totalSpots": 30
+        },
+        "relatedClasses": {
+          "classes": [
+            {
+              "title": "Deep Learning for Computer Vision",
+              "date": "Abr 21, 2025",
+              "availableSpots": 3
+            },
+            {
+              "title": "How to use AI to 10x your productivity",
+              "date": "Abr 21, 2025",
+              "availableSpots": 6
+            },
+            {
+              "title": "Introduction to AI Agents",
+              "date": "Abr 28, 2025",
+              "availableSpots": 2
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
