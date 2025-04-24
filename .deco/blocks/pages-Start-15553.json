@@ -135,7 +135,9 @@
         "__resolveType": "site/sections/FooterSection.tsx",
         "companyName": "Mainds",
         "companyLogo": "https://assets.decocache.com/cursoai/cd9d5ffa-dee7-4e33-a9b6-a4b7e7acae6f/maindslogo.svg",
-        "companyDescription": "Mainds é uma plataforma de educação em inteligência artificial que conecta você às habilidades do futuro através de aulas ao vivo conduzidas por especialistas líderes da indústria."
+        "companyDescription": "Mainds é uma plataforma de educação em inteligência artificial que conecta você às habilidades do futuro através de aulas ao vivo conduzidas por especialistas líderes da indústria.",
+        "copyrightText": "© 2025 Mainds. Todos os direitos reservados.",
+        "poweredByText": "Powered by deco and Carcará"
       }
     }
   ],

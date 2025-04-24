@@ -80,7 +80,7 @@ export default function FooterSection({
     { text: "Cookies", href: "#" },
   ],
   copyrightText = "© 2025 AICADEMY. Todos os direitos reservados.",
-  poweredByText = "Powered by deco.ai and Carcará | Acreditado pelo Conselho Global de IA (GCAI) | ISO/IEC 42001:2023",
+  poweredByText = "Powered by deco and Carcará | Acreditado pelo Conselho Global de IA (GCAI) | ISO/IEC 42001:2023",
 }: FooterSectionProps): JSX.Element {
   const renderSocialIcon = (type: SocialMedia["type"]) => {
     switch (type) {
@@ -226,7 +226,7 @@ export default function FooterSection({
           </div>
           
           <div class="mt-6 text-center text-[#9CA3AF] text-xs">
-            <p dangerouslySetInnerHTML={{ __html: poweredByText.replace('deco.ai', '<span class="text-[#D0EC1A]">deco.ai</span>').replace('Carcará', '<span class="text-[#D0EC1A]">Carcará</span>') }}></p>
+            <p dangerouslySetInnerHTML={{ __html: poweredByText.replace('deco', '<span class="text-[#D0EC1A]">deco</span>').replace('Carcará', '<span class="text-[#D0EC1A]">Carcará</span>') }}></p>
           </div>
         </div>
       </div>
