@@ -3,12 +3,12 @@
     "type": "website",
     "jsonLDs": [],
     "noIndexing": false,
-    "description": "Improve your page performance with deco.cx",
-    "titleTemplate": "%s | deco.cx",
+    "description": "Plataforma de ensino dos fundamentos à construção de AI Agents, aprenda com especialistas que estão construindo o futuro",
     "descriptionTemplate": "%s | deco.cx",
-    "title": "Start",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/40cc7da0-93d3-4215-9c2a-04b2f86b0a47",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/22c99167-0018-484f-8b0d-4295a7d771f2"
+    "favicon": "https://assets.decocache.com/cursoai/ae0046c3-2afd-42a3-81ad-228d0ea42d16/simbolo.png",
+    "image": "https://assets.decocache.com/cursoai/3afeb3f6-c51c-4721-9132-31fe1a95e5d0/Untitled.png",
+    "title": "Mainds",
+    "titleTemplate": "%s"
   },
   "global": [
     {
