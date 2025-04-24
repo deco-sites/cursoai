@@ -133,7 +133,8 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/FooterSection.tsx",
-        "companyName": "Mainds"
+        "companyName": "Mainds",
+        "companyDescription": "Mainds é uma plataforma de educação em inteligência artificial que conecta você às habilidades do futuro através de aulas ao vivo conduzidas por especialistas líderes da indústria."
       }
     }
   ],
