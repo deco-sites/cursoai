@@ -124,59 +124,63 @@ export default function LiveClasses({
                 {/* Glow effect on hover */}
                 <div className="absolute inset-0 bg-[#D0EC1A]/0 rounded-xl blur-[15px] opacity-0 group-hover:bg-[#D0EC1A]/10 group-hover:opacity-100 transition-all duration-300 z-0"></div>
                 
-                <div className="relative z-10">
+                <div className="relative z-10 h-full flex flex-col">
                   <div className="class-card-image h-[245px] w-full bg-cover bg-center rounded-t-xl relative" style={`background-image: url('${card.image}');`}>
                     {card.spotsLeft && (
                       <div className="class-card-badge absolute top-3 right-4 bg-[#374151] text-[#D1D5DB] text-xs font-bold py-1 px-2 rounded">{card.spotsLeft} spots left</div>
                     )}
                   </div>
                   
-                  <div className="class-card-content p-6 bg-[#1A1A1A] border border-t-0 border-[#1F2937] rounded-b-xl group-hover:border-[#D0EC1A] transition-all duration-300">
-                    <h3 className="font-montserrat text-xl text-white mb-2 leading-tight font-medium">
-                      {card.title}
-                    </h3>
-                    
-                    <div className="flex items-center gap-2 mb-6">
-                      <div className="flex items-center gap-2">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9CA3AF" stroke-width="1.2">
-                          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                          <line x1="16" y1="2" x2="16" y2="6"></line>
-                          <line x1="8" y1="2" x2="8" y2="6"></line>
-                          <line x1="3" y1="10" x2="21" y2="10"></line>
-                        </svg>
-                        <span className="text-[#9CA3AF] text-sm">{card.date}</span>
+                  <div className="class-card-content p-6 bg-[#1A1A1A] border border-t-0 border-[#1F2937] rounded-b-xl group-hover:border-[#D0EC1A] transition-all duration-300 flex flex-col flex-grow">
+                    <div className="flex-grow">
+                      <h3 className="font-montserrat text-xl text-white mb-2 leading-tight font-medium line-clamp-2 h-[56px]">
+                        {card.title}
+                      </h3>
+                      
+                      <div className="flex items-center gap-2 mb-6">
+                        <div className="flex items-center gap-2">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9CA3AF" strokeWidth="1.2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                          </svg>
+                          <span className="text-[#9CA3AF] text-sm">{card.date}</span>
+                        </div>
+                        
+                        <div className="w-1 h-1 rounded-full bg-[#9CA3AF]"></div>
+                        
+                        <div className="flex items-center gap-2">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9CA3AF" strokeWidth="1.2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                          </svg>
+                          <span className="text-[#9CA3AF] text-sm">{card.time}</span>
+                        </div>
                       </div>
                       
-                      <div className="w-1 h-1 rounded-full bg-[#9CA3AF]"></div>
-                      
-                      <div className="flex items-center gap-2">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9CA3AF" stroke-width="1.2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <polyline points="12 6 12 12 16 14"></polyline>
-                        </svg>
-                        <span className="text-[#9CA3AF] text-sm">{card.time}</span>
-                      </div>
-                    </div>
-                    
-                    <div className="flex gap-4 mb-6">
-                      <div 
-                        className="min-w-[75px] min-h-[75px] w-[75px] h-[75px] rounded-xl bg-cover bg-center overflow-hidden flex-shrink-0 border border-[#D0EC1A]" 
-                        style={`background-image: url('${card.instructor.avatar}');`}
-                      ></div>
-                      <div>
-                        <h4 className="text-[#D1D5DB] font-bold text-base">{card.instructor.name}</h4>
-                        <div className="text-[#9CA3AF] text-sm">
-                          <p>{card.instructor.role}</p>
-                          {card.instructor.description && <p>{card.instructor.description}</p>}
+                      <div className="flex gap-4 mb-6">
+                        <div 
+                          className="min-w-[75px] min-h-[75px] w-[75px] h-[75px] rounded-xl bg-cover bg-center overflow-hidden flex-shrink-0 border border-[#D0EC1A]" 
+                          style={`background-image: url('${card.instructor.avatar}');`}
+                        ></div>
+                        <div>
+                          <h4 className="text-[#D1D5DB] font-bold text-base">{card.instructor.name}</h4>
+                          <div className="text-[#9CA3AF] text-sm">
+                            <p>{card.instructor.role}</p>
+                            {card.instructor.description && <p className="line-clamp-2">{card.instructor.description}</p>}
+                          </div>
                         </div>
                       </div>
                     </div>
                     
-                    <hr className="border-[#1F2937] mb-6 group-hover:border-[#D0EC1A]/20 transition-all duration-300" />
-                    
-                    <a href={card.link} className="block text-center border border-[#D1D5DB] text-[#D1D5DB] py-2 rounded-md font-medium transition-colors hover:border-[#D0EC1A] hover:text-[#D0EC1A] group-hover:border-[#D0EC1A] group-hover:text-[#D0EC1A]">
-                      Participar
-                    </a>
+                    <div className="mt-auto">
+                      <hr className="border-[#1F2937] mb-6 group-hover:border-[#D0EC1A]/20 transition-all duration-300" />
+                      
+                      <a href={card.link} className="block text-center border border-[#D1D5DB] text-[#D1D5DB] py-2 rounded-md font-medium transition-colors hover:border-[#D0EC1A] hover:text-[#D0EC1A] group-hover:border-[#D0EC1A] group-hover:text-[#D0EC1A]">
+                        Participar
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -189,26 +193,26 @@ export default function LiveClasses({
           <a href={viewAllLink} className="text-[#D0EC1A] hover:underline flex items-center gap-2 text-sm font-medium transition-colors">
             View all classes
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </a>
           
           <div className="flex gap-4">
             <button className="carousel-prev bg-[#1A1A1A] border border-[#1F2937] rounded-full p-2 text-white hover:border-[#D0EC1A] transition-colors">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </button>
             <button className="carousel-next bg-[#1A1A1A] border border-[#1F2937] rounded-full p-2 text-white hover:border-[#D0EC1A] transition-colors">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </button>
           </div>
         </div>
       </div>
 
-      {/* CSS para esconder a barra de rolagem */}
+      {/* CSS para esconder a barra de rolagem e limitar número de linhas */}
       <style jsx>{`
         .scrollbar-hide {
           -ms-overflow-style: none;  /* IE and Edge */
@@ -216,6 +220,12 @@ export default function LiveClasses({
         }
         .scrollbar-hide::-webkit-scrollbar {
           display: none;  /* Chrome, Safari and Opera */
+        }
+        .line-clamp-2 {
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
         }
       `}</style>
     </section>
