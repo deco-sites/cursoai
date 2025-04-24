@@ -2673,8 +2673,17 @@ input.tab:checked + .tab-content,
 .mt-\[5px\] {
   margin-top: 5px;
 }
+.mt-auto {
+  margin-top: auto;
+}
 .box-border {
   box-sizing: border-box;
+}
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 .block {
   display: block;
@@ -2762,6 +2771,9 @@ input.tab:checked + .tab-content,
 }
 .h-\[500px\] {
   height: 500px;
+}
+.h-\[56px\] {
+  height: 56px;
 }
 .h-\[600px\] {
   height: 600px;
