@@ -105,8 +105,9 @@ export default function Homepage() {
       </div>
 
       <FooterSection 
-        companyName="AICADEMY"
-        companyDescription="Transformando conhecimento em inteligência artificial"
+        companyLogo="/static/images/aicademy-logo.svg"
+        companyLogoAlt="AICADEMY Logo"
+        companyDescription="Transformando conhecimento em inteligência artificial com uma plataforma inovadora de educação focada nas tecnologias que estão moldando o futuro."
         sections={[
           {
             title: "Cursos",

@@ -23,6 +23,8 @@ export interface ContactInfo {
 
 export interface FooterSectionProps {
   companyName?: string;
+  companyLogo?: string;
+  companyLogoAlt?: string;
   companyDescription?: string;
   socialMedia?: SocialMedia[];
   sections?: FooterSection[];
@@ -34,6 +36,8 @@ export interface FooterSectionProps {
 
 export default function FooterSection({
   companyName = "AICADEMY",
+  companyLogo = "",
+  companyLogoAlt = "Logo da empresa",
   companyDescription = "AICADEMY é uma plataforma pioneira de educação em inteligência artificial que conecta você às habilidades do futuro através de aulas ao vivo conduzidas por especialistas líderes da indústria.",
   socialMedia = [
     { type: "facebook", href: "#" },
@@ -126,7 +130,17 @@ export default function FooterSection({
         <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           {/* Column 1: Logo & About */}
           <div class="md:col-span-1">
-            <a href="#" class="text-[#D0EC1A] font-montserrat font-bold text-2xl">{companyName}</a>
+            <a href="#" class="inline-block">
+              {companyLogo ? (
+                <img 
+                  src={companyLogo} 
+                  alt={companyLogoAlt || companyName} 
+                  class="h-10 max-w-[180px] object-contain mb-2"
+                />
+              ) : (
+                <span class="text-[#D0EC1A] font-montserrat font-bold text-2xl">{companyName}</span>
+              )}
+            </a>
             <p class="text-[#A0A0A0] mt-4 text-sm">
               {companyDescription}
             </p>
