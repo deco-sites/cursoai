@@ -75,7 +75,7 @@ export default function LiveClasses({
         description: "Atuou em projetos de ecommerce para Farm, ZeeDog, LiveMode.",
         avatar: "/static/images/avatar.jpg"
       },
-      link: "class-enterprise-ai.html"
+      link: "/enterprise-ai"
     }
   ],
   viewAllLink = "/all-classes",

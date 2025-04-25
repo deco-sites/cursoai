@@ -1,4 +1,4 @@
-import ClassPage from "./sections/ClassPage.tsx";
+import ClassPage from "../sections/ClassPage.tsx";
 
 export default function EnterpriseAIPage() {
   return (
