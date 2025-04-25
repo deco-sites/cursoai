@@ -1,14 +1,14 @@
 import { JSX } from "preact";
 import ClassCover from "./ClassCover.tsx";
 import ClassDetails, { ClassDetailsProps } from "./ClassDetails.tsx";
-import ClassRegistration, { ClassRegistrationProps } from "./ClassRegistration.tsx";
+import FormEmbed, { FormEmbedProps } from "./FormEmbed.tsx";
 import RelatedClasses, { RelatedClassesProps } from "./RelatedClasses.tsx";
 
 export interface ClassPageProps {
   coverImage: string;
   coverAlt?: string;
   details: ClassDetailsProps;
-  registration: ClassRegistrationProps;
+  formEmbed: FormEmbedProps;
   relatedClasses: RelatedClassesProps;
 }
 
@@ -16,7 +16,7 @@ export default function ClassPage({
   coverImage,
   coverAlt,
   details,
-  registration,
+  formEmbed,
   relatedClasses,
 }: ClassPageProps): JSX.Element {
   return (
@@ -30,8 +30,8 @@ export default function ClassPage({
           {/* Left Side - Class Info */}
           <ClassDetails {...details} />
           
-          {/* Right Side - Registration */}
-          <ClassRegistration {...registration} />
+          {/* Right Side - Form Embed */}
+          <FormEmbed {...formEmbed} />
         </div>
         
         {/* Related Classes */}

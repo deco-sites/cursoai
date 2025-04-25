@@ -11,12 +11,12 @@ import * as $$$$$$3 from "./sections/ClassCover.tsx";
 import * as $$$$$$4 from "./sections/ClassDetails.tsx";
 import * as $$$$$$5 from "./sections/ClassInstructor.tsx";
 import * as $$$$$$6 from "./sections/ClassPage.tsx";
-import * as $$$$$$7 from "./sections/ClassRegistration.tsx";
-import * as $$$$$$8 from "./sections/ClassTopic.tsx";
-import * as $$$$$$9 from "./sections/FAQ.tsx";
-import * as $$$$$$10 from "./sections/FAQScript.tsx";
-import * as $$$$$$11 from "./sections/Footer.tsx";
-import * as $$$$$$12 from "./sections/FooterSection.tsx";
+import * as $$$$$$7 from "./sections/ClassTopic.tsx";
+import * as $$$$$$8 from "./sections/FAQ.tsx";
+import * as $$$$$$9 from "./sections/FAQScript.tsx";
+import * as $$$$$$10 from "./sections/Footer.tsx";
+import * as $$$$$$11 from "./sections/FooterSection.tsx";
+import * as $$$$$$12 from "./sections/FormEmbed.tsx";
 import * as $$$$$$13 from "./sections/Hero.tsx";
 import * as $$$$$$14 from "./sections/ItWorks.tsx";
 import * as $$$$$$15 from "./sections/LiveClasses.tsx";
@@ -38,12 +38,12 @@ const manifest = {
     "site/sections/ClassDetails.tsx": $$$$$$4,
     "site/sections/ClassInstructor.tsx": $$$$$$5,
     "site/sections/ClassPage.tsx": $$$$$$6,
-    "site/sections/ClassRegistration.tsx": $$$$$$7,
-    "site/sections/ClassTopic.tsx": $$$$$$8,
-    "site/sections/FAQ.tsx": $$$$$$9,
-    "site/sections/FAQScript.tsx": $$$$$$10,
-    "site/sections/Footer.tsx": $$$$$$11,
-    "site/sections/FooterSection.tsx": $$$$$$12,
+    "site/sections/ClassTopic.tsx": $$$$$$7,
+    "site/sections/FAQ.tsx": $$$$$$8,
+    "site/sections/FAQScript.tsx": $$$$$$9,
+    "site/sections/Footer.tsx": $$$$$$10,
+    "site/sections/FooterSection.tsx": $$$$$$11,
+    "site/sections/FormEmbed.tsx": $$$$$$12,
     "site/sections/Hero.tsx": $$$$$$13,
     "site/sections/ItWorks.tsx": $$$$$$14,
     "site/sections/LiveClasses.tsx": $$$$$$15,

@@ -63,9 +63,10 @@ export default function EnterpriseAIPage() {
           ]
         }
       }}
-      registration={{
-        availableSpots: 5,
-        totalSpots: 30
+      formEmbed={{
+        title: "Reserve seu lugar",
+        formUrl: "https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true",
+        disclaimer: "Ao se inscrever, você receberá um e-mail de confirmação com o link para acessar a aula ao vivo."
       }}
       relatedClasses={{
         title: "Classes relacionadas",
