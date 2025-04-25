@@ -199,9 +199,6 @@ export default function EnterpriseAIPage() {
         }
       }}
       registration={{
-        availableSpots: 5,
-        totalSpots: 30,
-        // formEmbedUrl: "https://app.loops.so/form/cm9vx7nys0dxs9hvyr1poox7g" // Using HTML embed instead
         formHtmlEmbed: loopsFormHtml // Use the HTML embed approach
       }}
       relatedClasses={{
