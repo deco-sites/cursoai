@@ -79,7 +79,8 @@
             "spotsLeft": 10
           }
         ],
-        "subtitle": "Explore os fundamentos, aprofunde-se nas aplicações práticas e transforme ideias em agentes inteligentes."
+        "subtitle": "Explore os fundamentos, aprofunde-se nas aplicações práticas e transforme ideias em agentes inteligentes.",
+        "categories": []
       }
     },
     {
@@ -118,10 +119,20 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Testimonials.tsx"
-      }
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Testimonials.tsx"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/never.ts"
+          }
+        }
+      ]
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
